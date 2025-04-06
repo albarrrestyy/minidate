@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Date Kita - 7 April 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #cceeff, #e0f7fa);
+      color: #333;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      color: #007acc;
+      margin-top: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      animation: slideUp 1.5s ease-in-out;
+    }
+    .quote {
+      font-style: italic;
+      color: #555;
+      margin-top: 30px;
+      animation: fadeIn 3s ease-in-out;
+    }
+    .love {
+      font-size: 1.5em;
+      color: #ff69b4;
+      margin-top: 20px;
+      animation: fadeIn 4s ease-in-out;
+    }
+    .heart {
+      font-size: 2em;
+      color: #ff6b81;
+      animation: pulse 2s infinite;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #00bcd4;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin-top: 25px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #0097a7;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes slideUp {
+      from {transform: translateY(30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mini Date Kita, 7 April 2025</h1>
+
+  <div class="container">
+    <div class="card">
+      <p class="heart">♥</p>
+      <p>Kita nonton bareng di <strong>CGV</strong>, duduk di Sweetbox yeaay~</p>
+    </div>
+
+    <div class="card">
+      <p class="heart">♥</p>
+      <p>Habis itu kita makan enak di <strong>Gokana</strong>, ~YUMMMYYYY~</p>
+    </div>
+
+    <div class="quote">"Walau cuma sebentar, tapi kalau bareng ayaang, semuanya selalu terasa indah."</div>
+    <div class="love">i'm always with you bby!</div>
+
+    <a href="#" class="btn" onclick="alert('abay cinta banget sama eree!')">I LOVE YOU</a>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://docs.google.com/uc?export=download&id=1zBQesGPJ7DAN9gE8koOdoEVHeTfPeYGC" type="audio/mp3">
+    Lagu nggak bisa diputar otomatis.
+  </audio>
+</body>
+</html>
